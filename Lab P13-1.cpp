@@ -29,6 +29,7 @@ int main() {
 	inputStream.open(filename);
 	if (!inputStream.is_open()) {
 		cout << "Sorry - file cannot be opened. ";
+		pressEnterToContinue();
 		return 1;
 	}
 
